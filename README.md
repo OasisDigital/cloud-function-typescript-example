@@ -17,19 +17,25 @@ and scalable application development.
 I mostly use Yarn because it is faster; it usually does not matter that GCF uses
 NPM to install runtime dependencies.
 
-To compile the TypeScript and run tests:
+Install dependencies (locally):
+
+```
+yarn
+```
+
+Compile the TypeScript and run tests:
 
 ```
 yarn test
 ```
 
-To run the function, locally right here:
+Run the function, locally:
 
 ```
 yarn run local
 ```
 
-To deploy to Google cloud functions:
+Deploy to Google cloud functions:
 
 ```
 yarn run deploy
