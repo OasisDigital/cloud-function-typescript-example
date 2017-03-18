@@ -1,0 +1,11 @@
+{
+	"version": "0.1.0",
+	// Requires: npm install -g typescript
+	"command": "node_modules/.bin/tsc",
+	"isShellCommand": true,
+	// Show the output window only if unrecognized errors occur.
+	"showOutput": "silent",
+	// Use this tsconfig
+	"args": ["-p", "."],
+	"problemMatcher": "$tsc"
+}
