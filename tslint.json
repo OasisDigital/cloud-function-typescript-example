@@ -27,12 +27,6 @@
       140
     ],
     "member-access": false,
-    "member-ordering": [
-      false,
-      "public-before-private",
-      "static-before-instance",
-      "variables-before-functions"
-    ],
     "no-any": true,
     "no-arg": true,
     "no-bitwise": true,

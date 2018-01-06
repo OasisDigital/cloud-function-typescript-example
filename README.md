@@ -90,6 +90,16 @@ If I recall right, the source of map files will not actually be used when an
 error occurs. Additional machinery is required to wire that up, and is
 worthwhile.
 
+This example does not show calling any Google Cloud services from inside the
+Cloud Function; most real Cloud Functions call such services. To get started on
+that, add dependencies on additional packages as described:
+
+https://www.npmjs.com/package/google-cloud
+
+Is better to not depend on the legacy wrapper "google-cloud" package, but
+rather on the newer, smaller scoped packages (for example,
+'@google-cloud/storage').
+
 ## GCloud Settings
 
 The commandline tool stores state in ~/.config/, you can either perform various
